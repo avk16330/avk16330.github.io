@@ -5,18 +5,13 @@ body {
     margin: 0;
 }
 .button {
-	position: absolute;
     width: 200px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
     padding-top: 20px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: center;
     border-radius: 0px;
     text-transform: uppercase;
     font-weight: bold;
@@ -64,14 +59,6 @@ footer {
     padding-top: 0px;
     margin-top: -5px;
     margin-bottom: 0px;
-}
-.gallery .thumbnail h4 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #000000;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .gallery .thumbnail p {
     margin: 0;
@@ -164,6 +151,5 @@ header {
     border-bottom: 4px solid #EADA63;
 }
 .wrapper {
-    text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 }
