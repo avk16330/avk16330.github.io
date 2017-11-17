@@ -44,9 +44,12 @@
 </div>
 <footer id="contact">
 <p class="hero_header">GET IN TOUCH WITH ME</p>
-<form action="vsco.co/avkonieczny">
-    <input type="submit" name="submit" id="submit" value="Go to Google" />
-</form>
+<button id = "linkButton" class=  "float-left submit-button">Go to VSCO Page</button>
+<script type = "text/javascript">
+    document.getElementById("myButton").onclick = function() {
+        location.href = "vsco.co/avkonieczny";
+    };
+</script>
 </div>
 </body>
 </html>
